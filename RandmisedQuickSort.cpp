@@ -44,3 +44,9 @@ class Solution{
     }
   }
 };
+
+/*
+Because of random pivot for the array in sorted order
+also will be solved in O(nlogn) complexity
+Wort case & Average Case: O(nlogn)
+*/
