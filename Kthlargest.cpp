@@ -12,7 +12,7 @@ public:
   }
   
   int partition(std::vector<nums>, int start, int end){
-    int i =-1;
+    int i =start-1;
     for(int j=start;j<end;j++){
       if(nums[j]>nums[end]){
         i++;
